@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-studyrepository",
+  "version": "1.0.0",
+  "description": "project to learn about nodejs",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroRamos360/NodeJS-StudyRepository.git"
+  },
+  "author": "Pedro Henrique Warken Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroRamos360/NodeJS-StudyRepository/issues"
+  },
+  "homepage": "https://github.com/PedroRamos360/NodeJS-StudyRepository#readme",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.2.2",
+    "@types/node": "^18.11.15",
+    "prisma": "^4.7.1",
+    "prisma-erd-generator": "^1.2.4",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/jwt": "^6.5.0",
+    "@prisma/client": "^4.7.1",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "fastify": "^4.10.2"
+  }
+}

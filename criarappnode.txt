@@ -1,0 +1,13 @@
+1) npm init
+2) npm install typescript -D
+3) npm install prisma -D // Prisma is a database toolkit
+4) npm install @prisma/client // Prisma client is a database client
+5) npx prisma init --datasource-provider SQLite// Prisma init will create a prisma folder with a schema.prisma file
+6) npx prisma migrate dev // Prisma migrate will create a database file
+7) npm i prisma-erd-generator @mermaid-js/mermaid-cli -D // Prisma-erd-generator will create a database diagram
+8) npx prisma generate // Prisma generate will create a prisma folder with a client folder
+9) npx prisma db seed // Prisma db seed will seed the database
+10) npx prisma studio // Prisma studio will open a database studio
+11) npm i fastify
+12) npm i @fastify/cors
+13) npm i @fastify/jwt
